@@ -1,0 +1,54 @@
+.box{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border:1px solid lightblue;
+    border-radius:30px;
+    width:50%;
+    margin: 20px;
+    padding:10px;
+    background-color:rgb(248,248,248);
+    margin: 0;
+  position: absolute;
+  
+   
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top:10%
+}
+.innerBox{
+    margin:10px;
+    background-color:white;
+    border-radius:10px;
+}
+
+.flexRow-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:space-around
+}
+
+.flexColumn-container{
+ 
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.heading{
+    
+    text-align: center;
+}
+
+.form{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border:1px solid lightblue;
+    border-radius:10px;
+    width:80%;
+   margin:10px;
+    padding:10px;
+    background-color:white;
+}
